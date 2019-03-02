@@ -14,6 +14,8 @@
 		1639B803222ACA6A009DA8AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1639B801222ACA6A009DA8AE /* LaunchScreen.storyboard */; };
 		1639B80E222ACA6B009DA8AE /* ExpandCollapseTableviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639B80D222ACA6B009DA8AE /* ExpandCollapseTableviewTests.swift */; };
 		1639B819222ACA6B009DA8AE /* ExpandCollapseTableviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639B818222ACA6B009DA8AE /* ExpandCollapseTableviewUITests.swift */; };
+		1639B827222ACED4009DA8AE /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639B826222ACED4009DA8AE /* HeaderView.swift */; };
+		1639B829222ACF18009DA8AE /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639B828222ACF18009DA8AE /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		1639B814222ACA6B009DA8AE /* ExpandCollapseTableviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpandCollapseTableviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1639B818222ACA6B009DA8AE /* ExpandCollapseTableviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandCollapseTableviewUITests.swift; sourceTree = "<group>"; };
 		1639B81A222ACA6B009DA8AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1639B826222ACED4009DA8AE /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		1639B828222ACF18009DA8AE /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				1639B7FF222ACA6A009DA8AE /* Assets.xcassets */,
 				1639B801222ACA6A009DA8AE /* LaunchScreen.storyboard */,
 				1639B804222ACA6A009DA8AE /* Info.plist */,
+				1639B826222ACED4009DA8AE /* HeaderView.swift */,
+				1639B828222ACF18009DA8AE /* DataModel.swift */,
 			);
 			path = ExpandCollapseTableview;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1639B7FB222ACA68009DA8AE /* ViewController.swift in Sources */,
+				1639B829222ACF18009DA8AE /* DataModel.swift in Sources */,
+				1639B827222ACED4009DA8AE /* HeaderView.swift in Sources */,
 				1639B7F9222ACA68009DA8AE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
